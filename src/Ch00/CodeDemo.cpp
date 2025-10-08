@@ -1,21 +1,17 @@
-// Complete Guide to C++ Programming Foundations
-// Exercise 00_03 with modifications
-// Using the Exercise Files in GitHub Codespaces, by Eduardo Corpeño 
 
+// code for adding two numbers
 #include <iostream>
-
+using namespace std;
 int main(){
-    float num_1, num_2, result;
+    cout<<"enter two numbers"<<endl;
+    int a, b,c;
+    cout<<"enter 1st number"<<endl;
+    cin>>a;
+    cout<<"enter 2nd number"<<endl;
+    cin>>b;
+    c=a+b;
+    cout<<"sum of 1st and 2nd number is "<<c<<endl;
 
-    std::cout << "Enter number 1: " << std::flush;
-    std::cin >> num_1; 
-    std::cout << "Enter number 2: " << std::flush;
-    std::cin >> num_2;
-    
-    result = num_1 + num_2;
-    
-    std::cout << "The result of the addition is " << result << std::endl;
-    
-    std::cout << std::endl << std::endl;
-    return 0;
+     return 0;
 }
+
